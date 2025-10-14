@@ -242,7 +242,11 @@
         cursor: pointer;
     }
     
-    .nav>div:nth-of-type(2) {}
+    .nav>div:nth-of-type(2) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     
     .nav>div:nth-of-type(2) ul {
         display: flex;
@@ -317,13 +321,11 @@
         height: 50%;
     }
     
-    .nav .mobile_menu .mobile_menu_icon {
-        font-size: clamp(12px, 2vw, 35px);
+    nav .mobile_menu .mobile_menu_icon {
+        font-size: clamp(25px, 2vw, 35px);
         color: whitesmoke;
         cursor: pointer;
     }
-    
-    .nav .mobile_menu .mobile_menu_icon i {}
     
     .nav .mobile_menu .mobile_menu_list {
         position: fixed;
@@ -433,7 +435,35 @@
         box-shadow: 0 0 10px #8000ff;
     }
     
-    .nav .mobile_menu .mobile_menu_list .social_icons {}
+    .nav .mobile_menu .mobile_menu_list .social_icons {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 20px;
+        gap: 20px;
+    }
+    
+    .nav .mobile_menu .mobile_menu_list .social_icons i {
+        font-size: clamp(15px, 4vw, 35px);
+        color: white;
+        width: 60px;
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-shadow: 0 0 5px #ffffff;
+        border-radius: 10px;
+        background: rgba(245, 245, 245, 0.4);
+        text-shadow: 0 0 5px white;
+        transition: .5s;
+    }
+    
+    .nav .mobile_menu .mobile_menu_list .social_icons i:hover {
+        box-shadow: 0 0 15px white;
+        transform: translate(0, -10px);
+        text-shadow: 0 0 15px white;
+        cursor: pointer;
+    }
     
     .nav .mobile_menu .mobile_menu_list .social_icons i {}
     /*--end nav */
