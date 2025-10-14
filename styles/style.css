@@ -1689,6 +1689,20 @@
             animation: icon 1s linear infinite alternate;
             font-size: clamp(12px, 2vw, 15px);
         }
+        .connection .conection_social>p:nth-child(2) {
+            width: 95%;
+            color: white;
+            font-size: clamp(14px, 2vw, 20px);
+            animation: third 2s ease-in infinite alternate;
+            text-shadow: 0 0 1px white;
+        }
+        .connection .conection_social>p:nth-child(3) {
+            width: 95%;
+            color: white;
+            font-size: clamp(14px, 2vw, 20px);
+            animation: third 2s ease-in infinite alternate;
+            text-shadow: 0 0 1px white;
+        }
         .Quantum>h3:after {
             left: 27%;
             margin-bottom: 20px;
