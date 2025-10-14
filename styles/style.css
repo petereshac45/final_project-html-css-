@@ -1658,6 +1658,9 @@
         .matrix .matrix_contianer .matrix_img {
             height: 300px;
         }
+        .evaulition .evaulition_contianer .evaulition_box_second:after {
+            left: 47.9%;
+        }
     }
     
     @media (max-width:750px) {
@@ -1761,18 +1764,20 @@
         }
         .evaulition .evaulition_contianer .evaulition_box {
             align-self: center;
-            width: 80%;
+            width: 90%;
+            padding: 10px;
         }
         .evaulition .evaulition_contianer .evaulition_box_second {
             align-self: center;
-            width: 80%;
+            width: 90%;
+            padding: 10px;
         }
         .evaulition .evaulition_contianer .evaulition_box:after {
             position: absolute;
             width: 20px;
             background-color: white;
             height: 20px;
-            left: -14.5%;
+            left: -8.5%;
             border-radius: 50%;
             content: '';
         }
@@ -1799,7 +1804,7 @@
             width: 18px;
             height: 18px;
             background-color: white;
-            left: -19%;
+            left: -9%;
             border-radius: 50%;
             content: '';
         }
@@ -1842,8 +1847,17 @@
             width: 18px;
             background-color: white;
             height: 18px;
-            left: -5%;
+            left: -3.5%;
             border-radius: 50%;
             content: '';
+        }
+    }
+    
+    @media (max-width:340px) {
+        .evaulition .evaulition_contianer .evaulition_box:after {
+            left: -11%;
+        }
+        .evaulition .evaulition_contianer .evaulition_box_second:after {
+            left: -5.5%;
         }
     }
