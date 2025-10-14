@@ -1175,7 +1175,7 @@
     .evaulition .evaulition_contianer .evaulition_box p:nth-child(1) {
         color: rgba(255, 255, 255, 0.484);
         text-shadow: 0 0 5px rgba(255, 255, 255, 0.682);
-        font-size: clamp(12px, 3vw, 40px);
+        font-size: clamp(20px, 3vw, 40px);
         text-shadow: 0 0 5px white;
         animation: icon 1s linear infinite alternate;
         font-weight: 600;
@@ -1233,7 +1233,7 @@
     .evaulition .evaulition_contianer .evaulition_box_second p:nth-child(1) {
         color: rgba(255, 255, 255, 0.484);
         text-shadow: 0 0 5px rgba(255, 255, 255, 0.682);
-        font-size: clamp(12px, 3vw, 40px);
+        font-size: clamp(20px, 3vw, 40px);
         text-shadow: 0 0 5px white;
         animation: icon 1s linear infinite alternate;
         font-weight: 600;
@@ -1680,11 +1680,11 @@
             clip-path: polygon(0 0, 100% 0, 100% 78%, 78% 100%, 0 100%);
         }
         .evaulition .evaulition_contianer .evaulition_box p:nth-child(3) {
-            width: 90%;
+            width: 100%;
         }
         .evaulition .evaulition_contianer .evaulition_box_second p:nth-child(3) {
             color: rgba(255, 255, 255, 0.808);
-            width: 90%;
+            width: 100%;
             text-shadow: 0 0 5px white;
             animation: icon 1s linear infinite alternate;
             font-size: clamp(12px, 2vw, 15px);
@@ -1765,11 +1765,13 @@
         .evaulition .evaulition_contianer .evaulition_box {
             align-self: center;
             width: 90%;
+            gap: 10px;
             padding: 10px;
         }
         .evaulition .evaulition_contianer .evaulition_box_second {
             align-self: center;
             width: 90%;
+            gap: 10px;
             padding: 10px;
         }
         .evaulition .evaulition_contianer .evaulition_box:after {
