@@ -371,7 +371,7 @@
         right: 0;
         z-index: -1;
         display: none;
-        height: 100vh;
+        height: 90vh;
     }
     
     .nav .mobile_menu .mobile_menu_list:hover:after {
@@ -384,13 +384,13 @@
     
     .nav .mobile_menu .mobile_menu_list .close {
         background-color: rgba(255, 255, 255, 0.805);
-        padding: 10px;
+        padding: 12px;
         border-radius: 50%;
         display: flex;
         box-shadow: 0 0 5px white;
         justify-content: center;
         align-items: center;
-        transform: rotate(0deg);
+        transform: rotate(-360deg);
         transition: transform 1s ease;
     }
     
