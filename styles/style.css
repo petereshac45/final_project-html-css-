@@ -1649,6 +1649,12 @@
         .nav .mobile_menu {
             display: flex;
         }
+        .matrix .matrix_contianer .matrix_img img {
+            height: 100%;
+        }
+        .matrix .matrix_contianer .matrix_img {
+            height: 300px;
+        }
     }
     
     @media (max-width:750px) {
@@ -1777,6 +1783,14 @@
             left: -19%;
             border-radius: 50%;
             content: '';
+        }
+        .matrix .matrix_contianer .matrix_img img {
+            height: 100%;
+            width: 100%;
+        }
+        .matrix .matrix_contianer .matrix_img {
+            height: 250px;
+            width: 85%;
         }
         .connection .conection_social .conection_icons {
             display: flex;
