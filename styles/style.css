@@ -670,7 +670,7 @@
         height: 65px;
         border: 1px solid white;
         box-shadow: 0 0 5px whitesmoke;
-        font-size: clamp(12px, 2vw, 18px);
+        font-size: clamp(16px, 2vw, 18px);
     }
     
     .rate .butons>button:nth-child(2) {
@@ -682,7 +682,7 @@
         background: #fa6cb9;
         transition: 1s;
         box-shadow: 0 0 5px whitesmoke;
-        font-size: clamp(12px, 2vw, 18px);
+        font-size: clamp(16px, 2vw, 18px);
         border: 1px solid white;
         color: rgba(255, 255, 255, 0.525);
     }
@@ -1415,7 +1415,7 @@
         color: white;
         background: linear-gradient(45deg, #30cfe7, #c8379b);
         border-radius: 10px;
-        font-size: clamp(12px, 2vw, 20px);
+        font-size: clamp(14px, 2vw, 20px);
         box-shadow: 0 0 1px white;
         transition: .75s;
     }
