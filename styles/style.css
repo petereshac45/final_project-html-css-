@@ -329,11 +329,11 @@
     
     .nav .mobile_menu .mobile_menu_list {
         position: fixed;
-        height: 98vh;
+        height: 100vh;
         top: 0;
         right: 0;
         transform: translateX(100%);
-        width: 300px;
+        width: 280px;
         background: var(--main-gradiant);
         backdrop-filter: 3px;
         display: flex;
