@@ -541,21 +541,21 @@
     }
     
     .heading span>p:nth-child(1) {
-        font-size: clamp(7px, 2vw, 18px);
+        font-size: clamp(12px, 2vw, 18px);
         text-align: center;
         word-spacing: 5px;
         color: rgba(245, 245, 245, 0.3);
     }
     
     .heading span>p:nth-child(2) {
-        font-size: clamp(7px, 2vw, 18px);
+        font-size: clamp(13px, 2vw, 18px);
         text-align: center;
         word-spacing: 5px;
         color: rgba(245, 245, 245, 0.3);
     }
     
     .heading span>p:nth-child(3) {
-        font-size: clamp(7px, 2vw, 18px);
+        font-size: clamp(12px, 2vw, 18px);
         word-spacing: 5px;
         text-align: center;
         color: rgba(245, 245, 245, 0.3);
@@ -1567,6 +1567,9 @@
     }
     
     @media (max-width:850px) {
+        nav {
+            top: 0;
+        }
         .nav>div:nth-of-type(2) ul {
             display: none;
         }
